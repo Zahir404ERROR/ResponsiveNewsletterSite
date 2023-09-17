@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8"/>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <title>Newsletter</title>
+   </head>
+
+   <body>
+      <header class="main-header">
+         <a href="index.html"> <img src="resources/logos/logo.png" alt="logo" title="logo" class="logo"> </a>
+         <nav>
+            <ul id="navbar-list">
+               <li><a href="featured.html">Featured</a></li>
+               <li><a href="newsletter.html">Newsletter</a></li>
+               <li><a href="about_us.html">About Us</a></li>
+               <li><a href="contact_us.html">Contact Us</a></li>
+            </ul>
+         </nav>
+   </header>
+      <div class="container">
+         <div class="Podcast_Banner">
+                  <h1>Newsletter</h1>
+                  <article class="NewsletterCards">
+                     <img src="resources/newsletter/img_1.png" alt="Photo of Earth and download title" title = "Photo of Earth and download title">
+                     <h2>The Download</h2>
+                     <p>Your daily dose of what's up in emerging technology.</p>
+                     <a href="/resources/index/sample.pdf" download>ADSFAS</a>
+                  </article>
+                  <article class = "NewsletterCards">
+                     <img src="resources/newsletter/img_2.png" alt="Matrix photo and algorithm title" title="Matrix photo and algorithm title">
+                     <h2>The Algorithm</h2>
+                     <p>Artificial intelligence, demystified.</p>
+                     <a href="/resources/index/sample.pdf" download> DAFAFD</a>
+                  </article>
+         </div>
+      </div>
+      <footer class="social-links">
+         <img src="resources/icons/fb.png" alt="facebook logo" title="facebook logo">
+         <img src="resources/icons/ig.png" alt="instagram logo" title="instagram logo">
+         <img src="resources/icons/tw.png" alt="twitter logo" title="twitter logo">
+      </footer>
+      <script>
+         var menuList= document.getElementById("menuList");
+         menuList.style.maxHeight="0px";
+         
+         function togglemenu(){
+             
+             if(menuList.style.maxHeight == "0px"){
+                     menuList.style.maxHeight = "370px";
+             }
+             else{
+                 menuList.style.maxHeight= "0px";
+         
+             }
+         }
+         
+      </script>
+   </body>
+</html>
